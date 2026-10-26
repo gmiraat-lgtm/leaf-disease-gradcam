@@ -1,0 +1,13 @@
+# credentials - never commit
+kaggle.json
+
+# trained artifacts (live in Google Drive, too heavy for git)
+*.weights.h5
+*.keras
+*.h5
+m2_outputs/
+M2_model/
+
+# local clutter
+.ipynb_checkpoints/
+__pycache__/
